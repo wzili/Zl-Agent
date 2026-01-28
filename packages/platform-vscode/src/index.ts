@@ -5,10 +5,8 @@
  */
 
 export { VSCodeFileSystem } from "./VSCodeFileSystem.js"
-
-// TODO: Export other implementations
-// export { VSCodeTerminalManager } from "./VSCodeTerminalManager.js"
-// export { VSCodeEditor } from "./VSCodeEditor.js"
-// export { VSCodeWorkspace } from "./VSCodeWorkspace.js"
-// export { VSCodeConfiguration } from "./VSCodeConfiguration.js"
-// export { VSCodeStorageProvider } from "./VSCodeStorageProvider.js"
+export { VSCodeConfiguration } from "./VSCodeConfiguration.js"
+export { VSCodeStorage, VSCodeSecretStorage, VSCodeStorageProvider } from "./VSCodeStorage.js"
+export { VSCodeWorkspace } from "./VSCodeWorkspace.js"
+export { VSCodeEditor } from "./VSCodeEditor.js"
+export { VSCodeTerminalManager } from "./VSCodeTerminalManager.js"
